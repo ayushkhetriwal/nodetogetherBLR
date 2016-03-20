@@ -1,0 +1,23 @@
+{
+  "name": "nodetogetherBLR",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushkhetriwal/nodetogetherBLR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayushkhetriwal/nodetogetherBLR/issues"
+  },
+  "homepage": "https://github.com/ayushkhetriwal/nodetogetherBLR#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
