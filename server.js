@@ -3,7 +3,7 @@
 // const express = require('express');
 // const app = express();
 
-// app.use(require('./app'));
+// appww.use(require('./app'));
 
 // app.listen(port, host);
 
@@ -18,8 +18,10 @@ var host = '0.0.0.0';
 var express = require('express');
 var app = express();
 
-// app.use(require,('./app'));
+app.use(require('./app'));
 
 app.listen(port,host);
 
 console.log("Server is listening ..... ");
+
+
