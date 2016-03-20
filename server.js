@@ -13,11 +13,12 @@
 
 
 var port = "8080";
-var host = '0.0.0.0';
+var host = process.env.HOST ;
 
 var express = require('express');
 var app = express();
 var motivations = require('motivations');
+var pickone = require('pick-one');
 
 app.use(require('./app'));
 
