@@ -12,8 +12,8 @@
 // module.exports = app;
 
 
-var port = "8080";
-var host = process.env.HOST ;
+var port = "80";
+var host = 'localhost';
 
 var express = require('express');
 var app = express();
