@@ -12,7 +12,7 @@
 // module.exports = app;
 
 
-var port = "80";
+var port = process.env.port || 3000;
 var host = 'localhost';
 
 var express = require('express');
